@@ -11,7 +11,7 @@ def get_input():
     return x, y
 
 def main_calculation():
-    (x, y) = get_input( )
+    (x, y) = get_input()
     divide = calculation(x, y)    
     print(f"Division = {divide}")
 
